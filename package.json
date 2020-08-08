@@ -1,0 +1,34 @@
+{
+  "name": "causethis",
+  "version": "1.0.0",
+  "description": "Application for keeping track of why you feel the way you do. ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon servere"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewFlesch/CauseThis.git"
+  },
+  "author": "Andrew Flesch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewFlesch/CauseThis/issues"
+  },
+  "homepage": "https://github.com/AndrewFlesch/CauseThis#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongose": "0.0.2-security",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
