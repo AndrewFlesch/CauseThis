@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon servere"
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -18,13 +20,19 @@
   },
   "homepage": "https://github.com/AndrewFlesch/CauseThis#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.1",
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
     "gravatar": "^1.8.1",
+    "jquery": "^3.5.1",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.4",
     "mongose": "0.0.2-security",
+    "react-icons": "^4.2.0",
     "request": "^2.88.2"
   },
   "devDependencies": {
